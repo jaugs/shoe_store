@@ -1,5 +1,5 @@
 import '../styles/headerStyle.css'
-
+import { Link } from 'react-router-dom'
 export default function Header(props) {
     
 
@@ -7,19 +7,37 @@ export default function Header(props) {
         <div className="header">
 
             <div className='leftLinks'>
-                <div className='headerLink'>For Women</div>
-                <div className='headerLink'>For Men</div>
-                <div className='headerLink'>Brands</div>
+                <Link 
+                    className='headerLink'
+                    to='/womens'>For Women
+                </Link>
+                <Link 
+                    className='headerLink'
+                    to="/mens">For Men
+                </Link>
+                <Link
+                    className='headerLink'
+                    to='/brands'>Brands
+                </Link>
             </div>
             <div className="title">
-                <div className='titleText'>Otherwides Wide Shoes</div>
-                <div>The Widest Selection in Town!</div>
-                <div>(480) 730-2730</div>
+                <Link
+                    className='titleText'
+                    to='/'>Otherwides Wide Shoes
+                </Link>
+                <div> The Widest Selection in Town!</div>
+                <div> (480) 730-2730</div>
             </div>
             <div className='rightLinks'>
-                <div className='headerLink'>About Us</div>
-                <div className='headerLink'>Contact</div>
-                <div className='headerLink'>Location</div>
+                <Link
+                    className='headerLink'
+                    to='/about'>About Us
+                </Link>
+                <Link
+                    className='headerLink'
+                    to='contact'>Contact
+                </Link>
+                <div className='headerLink'>Social</div>
             </div>
 
           
