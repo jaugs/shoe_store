@@ -26,7 +26,7 @@ export default function Header(props) {
                     to='/'>Otherwides Wide Shoes
                 </Link>
                 <div> The Widest Selection in Town!</div>
-                <div> (480) 730-2730</div>
+                <div className='phoneNumber'> (480) 730-2730</div>
             </div>
             <div className='rightLinks'>
                 <Link

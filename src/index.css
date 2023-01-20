@@ -14,6 +14,12 @@ code {
 
 @font-face {
   font-family: "regular";
+  src: local('Marcellus-Regular'),
+  url('./fonts/Marcellus-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "sourceSans";
   src: local('SourceSansPro-Regular'),
   url('./fonts/SourceSansPro-Regular.ttf') format('truetype');
 }
