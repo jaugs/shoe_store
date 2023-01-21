@@ -3,7 +3,7 @@ import storePic from '../images/store.png'
 import storePic2 from '../images/store2.png'
 //import { useEffect, useRef, useState } from "react";
 import AnimateOnScroll from './animate'
-
+import Contact from './contact'
 export default function Homepage (props) {
 
    // let observer = new IntersectionObserver(callback, options);
@@ -17,7 +17,11 @@ export default function Homepage (props) {
     return (
         <div className='homepage'>
             <div className='firstSection'>
-                <img className='shopImage' src= {storePic} alt='store display' />
+                <AnimateOnScroll 
+                    children={<img className='shopImage' src= {storePic} alt='store display' />}
+                    reappear={true} 
+                    threshold={.5} 
+                />
                 <div className='descriptionContainer'>
                 <div className='description'>
                     Welcome to Otherwides Wide Shoes, we are an independent full-service shoe store that specializes in wide and extra-wide width shoes for men and women. 
@@ -44,7 +48,8 @@ export default function Homepage (props) {
                  </div>
                  <img className='shopImage' src= {storePic2} alt='second store display' />
             </div>
-            <AnimateOnScroll children={<div>ddd</div>} reappear={false} threshold={.9} />
+            <AnimateOnScroll children={<div>ddd</div>} reappear={true} threshold={.1} right={false} />
+            <Contact></Contact>
         </div>
     )
 }

@@ -52,5 +52,13 @@
 }
 
 .newDiv {
-    transition-duration: 2s;
+    transition-duration: 1s;
+    
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
 }

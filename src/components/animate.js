@@ -53,7 +53,7 @@ const AnimateOnScroll = (props) => {
         transitionDuration: '1000',
         opacity: '0',
         blur: 'lg',
-       transform: 'translate(40px, 100px)'
+       transform: 'translate(-90px, 0)'
     }
 
 
