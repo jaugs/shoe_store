@@ -31,7 +31,7 @@ export default function Header(props) {
             <div className='rightLinks'>
                 <Link
                     className='headerLink'
-                    to='/about'>About Us
+                    to='/about_otherwides'>About Us
                 </Link>
                 <Link
                     className='headerLink'

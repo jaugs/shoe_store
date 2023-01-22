@@ -1,0 +1,18 @@
+
+.carouselContainer {
+    color: aliceblue;
+    background-color: black;
+    border: 1px solid black;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.card {
+    height: 10rem;
+    border: 1px solid white;
+    transition: 1s cubic-bezier(0.39, 0.57, 0.56, 1);
+}

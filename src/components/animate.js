@@ -38,23 +38,23 @@ const useElementOnScreen = (options) => {
 
 const AnimateOnScroll = (props) => {
 
-    const { children, reappear, threshold  } = props
+    const { children, reappear, threshold, right  } = props
 
     const visibleStyle = {
-        transitionDuration: '1000',
         opacity: '100',
         blur: 'none',
-        color: 'red',
-       // transform: 'translate(40px, 100px)'
     }
 
-    const notVisibleStyle = {
-        color: 'blue',
-        transitionDuration: '1000',
+    const notVisibleStyleLeft = {
         opacity: '0',
-        blur: 'lg',
-       transform: 'translate(-90px, 0)'
+        transform: 'translate(-90px, 0)'
     }
+
+    const notVisibleStyleRight = {
+      opacity: '0',
+      transform: 'translate(90px, 0)'
+  }
+
 
 
 
@@ -65,7 +65,7 @@ const AnimateOnScroll = (props) => {
   
     return (
       <>
-        <div ref={containerRef} className='newDiv' style={isVisible ? visibleStyle : notVisibleStyle}>
+        <div ref={containerRef} className='animatedDiv' style={isVisible ? visibleStyle : right ? notVisibleStyleRight : notVisibleStyleLeft}>
           {children}
         </div>
       </>
