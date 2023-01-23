@@ -21,8 +21,10 @@ export default function Homepage (props) {
                 />
                 <AnimateOnScroll
                     children={<div className='descriptionContainer'>
+                                <h2>Welcome to Otherwides Shoes</h2>
+                                <h3>The widest selection of shoes in the Valley</h3>
                                 <div className='description'>
-                                Welcome to Otherwides Wide Shoes, we are an independent full-service shoe store that specializes in wide and extra-wide width shoes for men and women. 
+                                We are an independent local full-service shoe store specializing in wide and extra-wide width shoes for men and women. 
                                 We have a huge selection of in-stock footwear, these include dress, casual, sandals, boots, work and athletic shoes. 
                                 From properly measuring your feet, fitting orthotics, finding comfortable work shoes, 
                                 getting fit in a top-of-the-line running shoe to finding the perfect evening shoe for that special night out, our experienced staff can help.
