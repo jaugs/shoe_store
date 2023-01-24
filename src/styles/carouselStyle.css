@@ -1,5 +1,5 @@
 
-.carouselContainer {
+.cardContainer {
     background-color: #E8FCFF;
     padding: 2rem;
     display: flex;
@@ -28,4 +28,32 @@
     width: 150px;
     height: 150px;
     background-color: white;
+}
+
+.arrows {
+    position: relative;
+    color: #1C3879;
+}
+
+.prev, .next {
+    cursor: pointer;
+    z-index: 100;
+    position:absolute;
+    top: 10%;
+    width: auto;
+    padding: .5rem;
+    margin-top: -10rem;
+    font-size: 40px;
+    font-weight: bold;
+   
+}
+
+.next {
+    margin-right: -3rem;
+    right: 0;
+}
+
+.prev {
+    margin-left: -3rem;
+   
 }
