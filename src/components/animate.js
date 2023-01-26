@@ -47,12 +47,12 @@ const AnimateOnScroll = (props) => {
 
     const notVisibleStyleLeft = {
         opacity: '0',
-        transform: 'translate(-90px, 0)'
+        transform: 'translate(-40px, 0)'
     }
 
     const notVisibleStyleRight = {
       opacity: '0',
-      transform: 'translate(90px, 0)'
+      transform: 'translate(40px, 0)'
   }
 
 

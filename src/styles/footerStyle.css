@@ -1,5 +1,50 @@
 .footer {
+    font-family: sourceSans;
     background-color: #1C2444;
     color: #F2F3Fb;
-    border: 2px solid #4594C4
+    height: 25rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    gap: 1.5rem;
+}
+
+.hoursContainer, .socialContainer, .addressContainer {
+    width: 15rem;
+    height: 21rem;
+}
+
+.socialIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.socialMediaLogo {
+    width: 2rem;
+}
+
+.socialLink:hover {
+    background-color: #767586;
+    border: 1px solid #F2F3Fb;
+}
+
+.socialLink {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F3Fb;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 15px;
+}
+
+.emailLink {
+    text-decoration: none;
+    color: #F2F3Fb;
 }
