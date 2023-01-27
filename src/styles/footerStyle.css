@@ -45,6 +45,39 @@
 }
 
 .emailLink {
+    display: block;
     text-decoration: none;
     color: #F2F3Fb;
+    font-size: 22px;
+    font-weight: 600;
+    width: 5rem;
+}
+
+.emailLink::after {
+    display: block;
+    content: '';
+    border-bottom: 3px solid #F9F5EB;
+    transform: scaleX(0); 
+    transition: transform 350ms ease-in-out;
+}
+
+.emailLink:hover::after {
+    transform: scaleX(1)
+}
+
+
+.day {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5rem;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.day p {
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
 }

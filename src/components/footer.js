@@ -11,18 +11,39 @@ export default function Footer() {
                 <p>1804 E Southern Ave</p>
                 <p>Tempe, AZ 85282</p>
                 <p>(480) 730-2730</p>
-                <a className="emailLink" href="mailto:otherwides@yahoo.com">Email</a>
+                <a className="emailLink" href="mailto:otherwides@yahoo.com">Email Us</a>
             </div>
             <div className='hoursContainer'>
                 <h3>Store Hours</h3>
                 <div className='hours'>
-                    <p>Monday: 10am-5pm</p>
-                    <p>Tuesday: 10am-5pm</p>
-                    <p>Wednesday: 10am-5pm</p>
-                    <p>Thursday: 10am-5pm</p>
-                    <p>Friday: 10am-5pm</p>
-                    <p>Saturday: 10am-5pm</p>
-                    <p>Sunday: Closed</p>
+                   <div className='day'>
+                    <p className='bold'>Monday:</p>
+                    <p>10am-5pm</p>
+                   </div>
+                   <div className='day'>
+                    <p className='bold'>Tuesday:</p>
+                    <p>10am-5pm</p>
+                   </div>  
+                   <div className='day'>
+                    <p className='bold'>Wednesday:</p>
+                    <p>10am-5pm</p>
+                   </div>  
+                   <div className='day'>
+                    <p className='bold'>Thursday:</p>
+                    <p>10am-5pm</p>
+                   </div>  
+                   <div className='day'>
+                    <p className='bold'>Friday:</p>
+                    <p>10am-5pm</p>
+                   </div>  
+                   <div className='day'>
+                    <p className='bold'>Saturday:</p>
+                    <p>10am-5pm</p>
+                   </div>  
+                   <div className='day'>
+                    <p className='bold'>Sunday:</p>
+                    <p>Closed</p>
+                   </div>  
                 </div>
             </div>
             <div className="socialContainer">

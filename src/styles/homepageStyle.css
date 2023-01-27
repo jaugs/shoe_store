@@ -48,6 +48,25 @@
 .aboutContainer {
     width: 50rem;
     flex-direction: column;
+    padding: 2rem;
+}
+
+.aboutText {
+    width: 42rem;
+}
+
+.aboutLink {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 800;
+    background-color: #001F5B;
+    color: #E8FCFF;
+    width: 18rem;
+    border-radius: 15px;
+    padding: .5rem;
+    margin-top: 1rem;
+    box-shadow: 2px 2px 6px black;
+
 }
 
 .services {
@@ -77,4 +96,11 @@
     flex-direction: column;
     gap: 2rem;
     padding: 2rem;
+}
+
+.storePic {
+    width: 25rem;
+    height: 25rem;
+    border: 1px solid #001F5B;
+    border-radius: 15px;
 }

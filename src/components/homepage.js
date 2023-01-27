@@ -3,9 +3,10 @@ import storePic from '../images/store.png'
 import storePic2 from '../images/store2.png'
 //import { useEffect, useRef, useState } from "react";
 import AnimateOnScroll from './animate'
-import Contact from './contact'
+import SignUpForm from './signup'
 import AboutUs from './aboutUs'
 import Carousel from './brandcarousel'
+import MapMarker from './createMap'
 
 export default function Homepage (props) {
 
@@ -72,7 +73,8 @@ export default function Homepage (props) {
             />
             </div>
             <Carousel></Carousel>
-            <Contact></Contact>
+            <SignUpForm></SignUpForm>
+            <MapMarker />
         </div>
     )
 }
