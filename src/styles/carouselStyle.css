@@ -1,6 +1,6 @@
 
 .cardContainer {
-    background-color: #E8FCFF;
+    background-color: #ffff;
     padding: 2rem;
     display: flex;
     flex-direction: row;
@@ -20,6 +20,7 @@
     border: 1px solid #e5e5e5;
     transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
     padding: 2px;
+    background-color: #F2F3FB;
 }
 
 .brandLogo {
@@ -27,7 +28,7 @@
     border-radius: 15px;
     width: 150px;
     height: 150px;
-    background-color: white;
+    background-color: #F2F3FB;
 }
 
 .arrows {

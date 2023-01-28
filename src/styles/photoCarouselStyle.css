@@ -1,0 +1,22 @@
+
+
+:root {
+    --heights: 50vh;
+    --widths: 100%
+}
+
+.photoCarouselContainer {
+    height: var(--heights);
+    width: var(--widths);
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.active {
+    display: inline-block;
+}
+
+.inactive {
+    display: none;
+}

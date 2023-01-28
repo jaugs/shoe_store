@@ -73,8 +73,18 @@ export default function Homepage (props) {
             />
             </div>
             <Carousel></Carousel>
-            <SignUpForm></SignUpForm>
-            <MapMarker />
+            <AnimateOnScroll 
+                children={<SignUpForm />}
+                reappear={true}
+                threshold={.3}
+                right={true}
+            />
+            <AnimateOnScroll 
+                children={<MapMarker />}
+                reappear={true}
+                threshold={.3}
+                right={false}
+            />
         </div>
     )
 }
