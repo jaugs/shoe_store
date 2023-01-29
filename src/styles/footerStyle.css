@@ -39,6 +39,7 @@
     justify-content: center;
     align-items: center;
     background-color: #F2F3Fb;
+    border: 1px solid #F2F3Fb;
     width: 3rem;
     height: 3rem;
     border-radius: 15px;

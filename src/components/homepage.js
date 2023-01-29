@@ -39,14 +39,12 @@ export default function Homepage (props) {
             <div className='secondSection'>
                 <AnimateOnScroll
                     children={
-                        <div className='services'>Services:
-                        <ul>
-                            <li>Huge size structure in stock:
-                                <ul>
-                                    <li>Women: 6 - 13 W, WW, XXW</li>
-                                    <li>Men: 7 - 18 3E - 6E</li>
-                                </ul>
-                            </li>
+                        <div className='services'>
+                        <h3>Sizes:</h3>
+                        <p>Women: 6 - 13 W, WW, XXW</p>
+                        <p>Men: 7 - 18 3E - 6E</p>
+                        <h3>Services:</h3>
+                            <ul>
                             <li>Experienced staff capable of foot measurement</li>
                             <li>Phone orders accepted</li>
                             <li>Seasonal as well as core styles</li>

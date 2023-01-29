@@ -31,12 +31,12 @@
     background-color: #F2F3FB;
 }
 
-.arrows {
+.BrandCarouselArrows {
     position: relative;
     color: #1C3879;
 }
 
-.prev, .next {
+.prevBrandCarousel, .nextBrandCarousel {
     cursor: pointer;
     z-index: 100;
     position:absolute;
@@ -49,12 +49,12 @@
    
 }
 
-.next {
+.nextBrandCarousel {
     margin-right: -3rem;
     right: 0;
 }
 
-.prev {
+.prevBrandCarousel {
     margin-left: -3rem;
    
 }

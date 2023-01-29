@@ -35,6 +35,7 @@ export default function Carousel () {
             <Arrows
                 prevCard={() => setCurrentIndex(currentIndex < 1 ? brandLogos.length-1 : currentIndex -1)}
                 nextCard={() => setCurrentIndex(currentIndex === brandLogos.length ? 0 : currentIndex + 1)}
+                componentName = {'BrandCarousel'}
             />
         </div>
     )

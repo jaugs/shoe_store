@@ -14,7 +14,7 @@ export default function PhotoCarousel(props) {
     useEffect(() => {
         const interval = setInterval(() => {
             setActiveIndex(activeIndex === len ? 0 : activeIndex +1);
-        }, 4000);
+        }, 90000);
         return () => clearInterval(interval);
     }, [activeIndex, len]);
 
@@ -28,6 +28,7 @@ export default function PhotoCarousel(props) {
                 nextCard = {() =>
                     setActiveIndex(activeIndex === len ? 0 : activeIndex +1)
                 }
+                componentName = {'mensCarousel'}
             />
             <Dots
                 activeIndex = {activeIndex}

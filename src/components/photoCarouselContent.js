@@ -10,6 +10,7 @@ export default function PhotoCarouselContent(props) {
                     className={index === activeIndex ? "activeSlide" : "inactiveSlide"}
                 >
                     <img className="slideImage" src={slide.image} alt={slide.name} />
+                    <div className="slideTitle">{slide.name}</div>
                 </div>
             ))}
         </section>
