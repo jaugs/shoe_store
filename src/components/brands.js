@@ -24,28 +24,28 @@ const brandLogos = [
     {name: 'Florsheim',
     image: florsheim},
     
-    {name: 'hushpuppies',
+    {name: 'Hush Puppies',
     image: hushpuppies},
     
-    {name: 'munro',
+    {name: 'Munro',
     image: munro},
 
-    {name: 'newbalance',
+    {name: 'New Balance',
     image: newbalance},
     
-    {name: 'propet',
+    {name: 'Propet',
     image: propet},
 
-    {name: 'skechers',
+    {name: 'Skechers',
     image: skechers},
     
-    {name: 'softwalk',
+    {name: 'Softwalk',
     image: softwalk},
 
-    {name: 'trotters',
+    {name: 'Trotters',
     image: trotters},
 
-    {name: 'wolky',
+    {name: 'Wolky',
     image: wolky},
 ]
 export {brandLogos}

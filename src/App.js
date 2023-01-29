@@ -4,6 +4,8 @@ import Header from './components/header';
 import Footer from './components/footer';
 import Homepage from './components/homepage';
 import Mens from './components/mens';
+import Womens from './components/womens';
+import BrandsPage from './components/brandsPage';
 
 function App() {
 
@@ -24,6 +26,18 @@ function App() {
           exact path="mens"
           element={
             <Mens />
+          }
+        />
+          <Route
+          exact path="womens"
+          element={
+            <Womens />
+          }
+        />
+        <Route
+          exact path="brands"
+          element={
+            <BrandsPage />
           }
         />
       

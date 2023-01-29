@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Arrows from "./carouselArrows";
 import PhotoCarouselContent from "./photoCarouselContent";
 import Dots from "./photoCarouselDots";
-import '../styles/photoCarouselStyle.css'
+import '../../styles/photoCarouselStyle.css'
 
 
 

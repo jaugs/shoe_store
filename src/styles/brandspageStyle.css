@@ -1,0 +1,74 @@
+
+.brandPageContainer {
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+
+.brandsInfoContainer {
+    text-align: center;
+    width: 30rem;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 2.5rem;
+    background-color: #F2F3FB;
+    color: #1C2444;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 3px #1c2444;
+}
+
+.brandsInfoContainer h3 {
+    color: #003FAA;
+}
+
+.sizes {
+    width: 28rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sizes p {
+    margin: 0
+}
+
+.colorbold {
+    font-size: 22px;
+    color: #003FAA;
+    font-weight: 800;
+}
+
+.logoContainer {
+    border-radius: 15px;
+    min-width: 13rem;
+    min-height: 13rem;
+    transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+    padding: 2px;
+    background-color: #F2F3FB;
+    box-shadow: 1px 1px 10px 3px #1c2444;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    border: 1px solid #e9eaee;
+    border-radius: 15px;
+    width: 10rem;
+    height: 10rem;
+    background-color: #FFFF;
+}

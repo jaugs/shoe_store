@@ -5,7 +5,7 @@ import storePic2 from '../images/store2.png'
 import AnimateOnScroll from './animate'
 import SignUpForm from './signup'
 import AboutUs from './aboutUs'
-import Carousel from './brandcarousel'
+import Carousel from './carousel/brandcarousel'
 import MapMarker from './createMap'
 
 export default function Homepage (props) {

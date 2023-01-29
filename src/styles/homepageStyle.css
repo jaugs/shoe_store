@@ -102,6 +102,8 @@
 .services ul {
     color:#001F5B;
     list-style: none;
+    padding: none;
+    margin: 0
 }
 
 .services p {

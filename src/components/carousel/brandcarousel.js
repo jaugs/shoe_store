@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import '../styles/carouselStyle.css'
-import { brandLogos } from './brands.js'
+import  '../../styles/carouselStyle.css'
+import { brandLogos } from '../brands.js'
 import Arrows from './carouselArrows'
 
 export default function Carousel () {
