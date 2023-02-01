@@ -9,7 +9,7 @@ export default function BrandsPage () {
         <div className="brandPageContainer">
             <AnimateOnScroll
              children={
-                <div className='brandsInfoContainer'>
+                <section className='brandsInfoContainer'>
                     <h3> Our Brands </h3>
                     <div>We offer men's and women's wide and double-wide shoes, boots, sandals, sneakers for any occasion!
                         Take a look at some of our quality brands:
@@ -22,19 +22,27 @@ export default function BrandsPage () {
                         <p className="colorbold">Women's Sizes:</p>
                         <p>Women: 6 - 13, W, WW, XXW</p>
                     </div>
-                </div>
+                </section>
              }
              reappear={true}
              threshold={.3}
              right={true}
             />
+            <section className="brandLogoContainer">
             {brandLogos.map((logo, index) => (
-                <div className="logoContainer"
+                <div className="logoCard"
                      key={index}>
-                     <img className="logo" src={logo.image} alt={logo.name} />
-                    {logo.name}</div>
+                     <div className="logoCardInner">
+                        <div className="logoCardFront">
+                            <img className="logo" src={logo.image} alt={logo.name} />
+                        </div>
+                        <div className="logoCardBack">
+                            {logo.name}
+                        </div>
+                    </div>
+                </div>
             ))}
-
+            </section>
 
         </div>
     )

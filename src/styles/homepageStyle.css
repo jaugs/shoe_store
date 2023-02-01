@@ -28,7 +28,7 @@
 }
 
 .firstSection {
-    padding-top: 1rem;
+    padding-top: 1.5rem;
 }
 
 .descriptionContainer, .services, .aboutContainer, .signupContainer {
@@ -186,4 +186,9 @@
     background-color: #1C2444;
     color:#F2F3FB;
     transform: translate(0, 5px);
+}
+
+.mapContainer {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
