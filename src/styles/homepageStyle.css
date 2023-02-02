@@ -151,8 +151,7 @@
 
 .emailInput:focus {
     border: 3px solid #E8FCFF;
-    background-color: #1C2444;
-    color: #F2F3FB;
+    background-color: #C6CCFF;
 }
 
 .submitButton {

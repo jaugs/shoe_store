@@ -7,6 +7,7 @@ import Mens from './components/mens';
 import Womens from './components/womens';
 import BrandsPage from './components/brandsPage';
 import Contact from './components/contact';
+import AboutOtherwides from './components/aboutPage';
 
 function App() {
 
@@ -41,10 +42,16 @@ function App() {
             <BrandsPage />
           }
         />
-         <Route
+        <Route
           exact path="contact"
           element={
             <Contact />
+          }
+        />
+        <Route
+          exact path="about_otherwides"
+          element={
+            <AboutOtherwides />
           }
         />
       
