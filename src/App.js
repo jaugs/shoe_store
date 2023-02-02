@@ -6,6 +6,7 @@ import Homepage from './components/homepage';
 import Mens from './components/mens';
 import Womens from './components/womens';
 import BrandsPage from './components/brandsPage';
+import Contact from './components/contact';
 
 function App() {
 
@@ -38,6 +39,12 @@ function App() {
           exact path="brands"
           element={
             <BrandsPage />
+          }
+        />
+         <Route
+          exact path="contact"
+          element={
+            <Contact />
           }
         />
       

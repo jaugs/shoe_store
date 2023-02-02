@@ -56,6 +56,9 @@
     width: 65rem;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
 }
 
 .logoCard {
@@ -89,6 +92,9 @@
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     box-shadow: 1px 1px 10px 3px #1c2444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -99,13 +105,16 @@
 
 .logoCardBack {
     background-color: #F2F3FB;
+    border: 2px solid #1C2444;
+    color: #003FAA;
+    font-size: 24px;
+    font-weight: 800;
     border-radius: 15px;
-
     transform: rotateY(180deg);
 }
 
 .logo {
-    border: 1px solid #e9eaee;
+    border: 4px solid #F2F3FB;
     border-radius: 15px;
     width: 10rem;
     height: 10rem;

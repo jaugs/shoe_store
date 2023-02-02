@@ -1,0 +1,31 @@
+
+.contactContainer {
+    background-color: #ffff;
+    padding: 1rem;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactForm {
+    border-radius: 15px;
+    width: 50rem;
+    color: #1C2444;
+    background-color: #F2F3FB;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    box-shadow: 2px 2px 6px black;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactForm label {
+    display: flex;
+    flex-direction: column;
+   
+}

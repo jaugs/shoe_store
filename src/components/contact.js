@@ -1,32 +1,43 @@
-
+import '../styles/contactpageStyle.css'
 
 export default function Contact(props) {
 
 
     return (
-        <div className="contactContainer">
+        <section className="contactContainer">
+            <div className="contactTitle">
+                Please fill out the form below and we will get in touch with you as soon as possible. Thanks!
+            </div>
             <form className="contactForm">
-                <label>Contact Us!</label>
+                <label>Your Name (required)
                 <input
                     type='text'
                     name='name'
                     placeholder='Name...'
+                    required
                 />
+                </label>
+                <label>Your Email
                 <input
                     type='email'
                     name='email'
                     placeholder='Email...'
                 />
+                </label>
+                <label>Your Phone Number
                   <input
                     type='phone'
                     name='phone'
                     placeholder='Phone Number...'
                 />
+                </label>
+                <label>Your Message (required)
                   <input
-                    type='text'
+                    type='textarea'
                     name='message'
-                    placeholder='Message...'
+                    required
                 />
+                </label>
                 <button
                     type="submit"
                     className="submitButton"
@@ -35,8 +46,7 @@ export default function Contact(props) {
 
 
             </form>
-
-
-        </div>
+            
+        </section>
     )
 }
