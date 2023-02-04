@@ -15,7 +15,7 @@ export default function AboutUs () {
                 </div>
                 <Link
                     className="aboutLink"
-                    to="/about-otherwides"
+                    to="/about_otherwides"
                 >Learn more About Us
                 </Link>
 

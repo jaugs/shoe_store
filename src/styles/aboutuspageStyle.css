@@ -1,0 +1,32 @@
+
+.aboutStoreContainer {
+    background-color: #ffff;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1.2rem;
+}
+
+.aboutTextContainer {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 2.5rem;
+    width: 30rem;
+    background-color: #F2F3FB;
+    color: #1C2444;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 1px 1px 10px 3px #1c2444;
+    border-radius: 15px;
+}
+
+.aboutTextContainer h2 {
+    color: #003FAA
+}
