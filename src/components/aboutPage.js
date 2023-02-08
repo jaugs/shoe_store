@@ -25,9 +25,7 @@ export default function AboutOtherwides () {
                 threshold={.3}
                 right={true}
             />
-            <div className='aboutText'>
-                hello
-            </div>
+            
 
         </div>
     )
