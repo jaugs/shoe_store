@@ -1,8 +1,6 @@
 .header {
-    font-size: 14px;
-    background-color: #eff6ff;
+    font-size: 17px;
     height: 6rem;
-    font-size: 20px;
     font-weight: 700;
     color: #F2F3FB;
     background-color: #1C2444;
@@ -19,13 +17,106 @@
     font-family: sourceSans;
 }
 
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    padding-right: 3rem;
+}
+
+.titleText {
+    text-decoration: none;
+    color: #F2F3FB;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.leftLinks, .rightLinks, .sloganText {
+    display: none;
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: column;
+    width: 5rem;
+}
+
+.navigation {
+    width: 10rem;
+    background-color: #444655;
+    position:absolute;
+    overflow-y: scroll;
+    top: 6rem;
+    left: 0rem;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    margin: 0;
+    padding-left: 5px;
+}
+
+.navigation ul li {
+    list-style: none;
+    padding: 8px;
+    border-bottom: 1px solid #F9F5EB;
+    text-decoration: none;
+    color: #F9F5EB;
+}
+
+.mobileLink {
+    text-decoration: none;
+    color: #F9F5EB;
+}
+
+.hamburgerMenu{
+    position: fixed;
+    left: 1rem;
+    top: 1rem;
+
+}
+
+.hamburger {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    z-index: 10;
+    padding-top: 15px;
+    margin-left: 10px;
+
+}
+
+.burger {
+    width: 2rem;
+    height: 0.25rem;
+    border-radius: 10px;
+    background-color: #F2F3FB;
+    transform-origin: 1px;
+    transition: all 0.3s linear;
+}
+
+
 /* #1C3879
  */
 
 @media only screen and (min-width: 768px) {
 
+
+.navigation {
+    display: none;
+}
+
+.hamburgerMenu {
+    display: none;
+}
+
 .header {
-    
     height: 10rem;
     font-size: 20px;
     font-weight: 700;

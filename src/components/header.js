@@ -2,6 +2,29 @@ import '../styles/headerStyle.css'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
+
+function Hamburger (props) {
+    const {isOpen} = props
+
+    const style1 = {
+        transform: isOpen ? 'rotate(45deg)' : 'rotate(0)'
+    }
+    const style2 = {
+        transform: isOpen ? 'translateX(100%)' : 'translateX(0)',
+        opacity: isOpen ? 0 : 1
+        }
+    const style3 = {
+        transform: isOpen ? 'rotate(-45deg)' : 'rotate(0)'
+    }
+    return (
+        <div className='hamburger'>
+            <div style={style1} className='burger burger1' />
+            <div style={style2} className='burger burger2' />
+            <div style={style3} className='burger burger3' />
+        </div>
+    )
+}
+
 export default function Header(props) {
     
     const [navbarOpen, setNavbarOpen] = useState(false)
@@ -10,22 +33,53 @@ export default function Header(props) {
         setNavbarOpen(!navbarOpen)
     }
 
+    const burgerStyle = {
+        display: navbarOpen ? 'block' : 'none'
+    }
+
     return (
         <div className="header">
+            <div className='navContainer'>
+            <div className='hamburgerMenu' onClick={toggleNavbar}>
+                <Hamburger isOpen = {navbarOpen} />
+            </div>
 
-            <div className='navigation'>
+            <div style={burgerStyle} className='navigation'>
                 <ul>
-                    <li>For Women</li>
-                    <li>For Men</li>
-                    <li>Brands</li>
-                    <li>About Us</li>
-                    <li>Contact</li>
+                    <li>
+                        <Link
+                        className='mobileLink'
+                        to='/womens'>For Women
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                        className='mobileLink'
+                        to='/mens'>For Men
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                        className='mobileLink'
+                        to='/brands'>Brands
+                        </Link>
+                    </li>
+                    <li>
+                        <Link 
+                        className='mobileLink'
+                        to='/about_otherwides'>About Us
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                        className='mobileLink'
+                        to='/contact'>Contact
+                        </Link>
+                    </li>
                 </ul>
             </div>
-
-            <div className='hamburger' onClick={toggleNavbar}>
-
             </div>
+         
 
 
             <div className='leftLinks'>
@@ -47,7 +101,7 @@ export default function Header(props) {
                     className='titleText'
                     to='/'>Otherwides Wide Shoes
                 </Link>
-                <div> The Widest Selection in Town!</div>
+                <div className='sloganText'>The Widest Selection in Town!</div>
                 <div className='phoneNumber'> (480) 730-2730</div>
             </div>
             <div className='rightLinks'>
