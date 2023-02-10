@@ -7,16 +7,15 @@
     gap:1rem;
     flex-wrap: nowrap;
     overflow: hidden;
-    width: 52rem;
+    width: 15rem;
     padding: 2rem;
     border-radius:  15px;
 }
 
 .card {
-    /* min-width: 100%; */
     border-radius: 15px;
-    min-width: 150px;
-    min-height: 150px;
+    min-width: 125px;
+    min-height: 125px;
     border: 1px solid #e5e5e5;
     transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
     padding: 2px;
@@ -26,14 +25,59 @@
 .brandLogo {
     border: 1px solid #e9eaee;
     border-radius: 15px;
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
     background-color: #F2F3FB;
 }
 
 .BrandCarouselArrows {
     position: relative;
     color: #1C3879;
+}
+
+.prevBrandCarousel, .nextBrandCarousel {
+    z-index: 100;
+    position:absolute;
+    top: 10%;
+    width: auto;
+    padding: .5rem;
+    margin-top: -8.5rem;
+    font-size: 40px;
+    font-weight: bold;
+   
+}
+
+.nextBrandCarousel {
+    margin-right: -3rem;
+    right: 0;
+}
+
+.prevBrandCarousel {
+    margin-left: -3rem;
+   
+}
+
+@media only screen and (min-width: 768px) {
+
+.cardContainer {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    width: 52rem;
+    padding: 2rem;
+}
+
+.card {
+    /* min-width: 100%; */
+    min-width: 150px;
+    min-height: 150px;
+    padding: 2px;
+}
+
+.brandLogo {
+    width: 150px;
+    height: 150px;
 }
 
 .prevBrandCarousel, .nextBrandCarousel {
@@ -57,4 +101,6 @@
 .prevBrandCarousel {
     margin-left: -3rem;
    
+}
+
 }

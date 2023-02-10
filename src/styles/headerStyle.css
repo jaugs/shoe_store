@@ -50,6 +50,7 @@
     overflow-y: scroll;
     top: 6rem;
     left: 0rem;
+    
 }
 
 .navigation ul {
@@ -74,10 +75,7 @@
 }
 
 .hamburgerMenu{
-    position: fixed;
-    left: 1rem;
-    top: 1rem;
-
+    padding-bottom: 1.5rem;
 }
 
 .hamburger {
@@ -108,7 +106,7 @@
 @media only screen and (min-width: 768px) {
 
 
-.navigation {
+.navigation, .navContainer {
     display: none;
 }
 
@@ -128,6 +126,9 @@
     align-items: center;
     margin: 0 auto;
     width: 100%;
+}
+.sloganText {
+    display: flex;
 }
 
 .title {
