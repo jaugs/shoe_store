@@ -200,7 +200,7 @@
 }
 
 .aboutText {
-    width: 42rem;
+    width: 44rem;
 }
 
 .aboutLink {
@@ -298,4 +298,47 @@
     margin-top: 1rem;
 }
 
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1170px){
+
+    .homepage, .firstSection, .secondSection {
+        gap: 0.8rem;
+    }
+
+    .shopImage {
+        width: 26rem;
+    }
+
+    .descriptionContainer, .services, .aboutContainer, .signupContainer {
+        font-size: 15px;
+        width: 22rem;
+        padding: .5rem;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    .aboutContainer {
+        width: 35rem;
+    }
+
+    .aboutContainer h2 {
+        font-size: 20px;
+    }
+
+    .aboutText {
+        width: 32rem;
+        font-size: 15px;
+    }
+
+    .signupContainer{
+        width: 28rem;
+        padding-bottom: 1rem;
+    }
+
+    .signupContainer form label {
+        font-size: 18px;
+    }
 }

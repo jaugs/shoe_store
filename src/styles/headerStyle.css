@@ -29,7 +29,7 @@
 .titleText {
     text-decoration: none;
     color: #F2F3FB;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -115,7 +115,7 @@
 }
 
 .header {
-    height: 10rem;
+    height: 12rem;
     font-size: 20px;
     font-weight: 700;
     color: #F2F3FB;
@@ -129,21 +129,25 @@
 }
 .sloganText {
     display: flex;
+    font-size: 18px;
 }
 
 .title {
     display: flex;
     flex-direction: column;
+    flex-shrink: 2;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding-right: 0;
     gap:1rem
 }
 
 .titleText {
+    display: flex;
+    flex-shrink: 2;
     text-decoration: none;
     color: #F2F3FB;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 700;
 }
 
@@ -173,5 +177,17 @@
     transform: scaleX(1)
 }
 
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1170px){
+    .titleText{
+        font-size: 28px;
+    }
+
+    .sloganText {
+        display: none;
+    }
 
 }
