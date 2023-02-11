@@ -3,8 +3,8 @@
 .photoCarouselContainer {
     background-color: #F2F3FB;
     color: #1C2444;
-    height: 40rem;
-    width: 50rem;
+    height: 22rem;
+    width: 22rem;
     position: relative;
     margin-bottom: 2rem;
     display: flex;
@@ -16,8 +16,8 @@
 }
 
 .activeSlide {   
-    width: 40rem;
-    height: 20rem;
+    width: 20rem;
+    height: 10rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,14 +31,14 @@
 }
 
 .slideImage {
-    width: auto;
+    width: 16rem;
     object-fit: cover;
     box-shadow: 1px 1px 10px 3px #1c2444;
     border-radius: 15px;
 }
 
 .slideTitle {
-    font-size: 24px;
+    font-size: 19px;
     font-weight: 600;
 }
 
@@ -46,9 +46,9 @@
     cursor: pointer;
     z-index: 100;
     top: 50%;
-    width: 2rem;
-    padding: 1rem;
-    margin-top: -3rem;
+    width: .5rem;
+    padding: .5rem;
+    margin-top: -4rem;
     font-size: 40px;
     font-weight: bold;
     border-radius: 5px;
@@ -68,14 +68,14 @@
 }
 
 .prevmensCarousel {
-    left: 2%;
+    left: 1%;
 }
 
 .dotContainer {
     width: 100%;
     position: absolute;
     display: flex;
-    top: 93%;
+    top: 88%;
     justify-content: center;
     z-index: 200;
 }
@@ -92,4 +92,41 @@
 
 .activeDot, .dot:hover {
     background-color: rgba(51, 8, 243, 0.664);
+}
+
+@media only screen and (min-width: 768px) {
+
+    .photoCarouselContainer {
+        height: 40rem;
+        width: 50rem;
+        margin-bottom: 2rem;
+    }
+    
+    .activeSlide {   
+        width: 40rem;
+        height: 20rem;
+        padding: 1rem;
+        gap: 2rem;
+    }
+
+    .slideTitle {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .slideImage {
+        width: auto;
+    }
+
+    .dotContainer {
+        top: 92%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1170px){
+
+    .photoCarouselContainer {
+        width: 40rem;
+    }
+
 }

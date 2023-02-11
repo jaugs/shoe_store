@@ -1,4 +1,3 @@
-
 .brandPageContainer {
     background-color: #ffff;
     display: flex;
@@ -11,19 +10,19 @@
 
 .brandsInfoContainer {
     text-align: center;
-    width: 30rem;
-    font-size: 20px;
+    width: 21rem;
+    font-size: 16px;
     font-weight: 600;
-    line-height: 2.5rem;
+    line-height: 1rem;
     background-color: #F2F3FB;
     color: #1C2444;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-    padding: 1rem;
-    padding-top: 2rem;
+    gap: .5rem;
+    padding: .5rem;
+    padding-top: 1rem;
     border-radius: 15px;
     box-shadow: 1px 1px 10px 3px #1c2444;
 }
@@ -33,7 +32,7 @@
 }
 
 .sizes {
-    width: 28rem;
+    width: 20rem;
     display: flex;
     flex-direction: row;
     gap: 1rem;
@@ -46,14 +45,13 @@
 }
 
 .colorbold {
-    font-size: 22px;
+    font-size: 17px;
     color: #003FAA;
-    font-weight: 800;
+    font-weight: 700;
 }
 
-
 .brandLogoContainer {
-    width: 65rem;
+    width: 21rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -62,9 +60,9 @@
 }
 
 .logoCard {
-    width: 12rem;
-    height: 12rem;
-    padding: 1rem;
+    width: 6rem;
+    height: 6rem;
+    padding: .5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -95,7 +93,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .logoCardFront {
@@ -107,7 +104,7 @@
     background-color: #F2F3FB;
     border: 2px solid #1C2444;
     color: #003FAA;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 800;
     border-radius: 15px;
     transform: rotateY(180deg);
@@ -116,7 +113,80 @@
 .logo {
     border: 4px solid #F2F3FB;
     border-radius: 15px;
+    width: 5rem;
+    height: 5rem;
+    background-color: #FFFF;
+}
+
+@media only screen and (min-width: 768px) {
+
+.brandPageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+
+.brandsInfoContainer {
+    width: 30rem;
+    font-size: 20px;
+    line-height: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    padding-top: 2rem;
+}
+
+.sizes {
+    width: 28rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.colorbold {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+
+.brandLogoContainer {
+    width: 65rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.logoCard {
+    width: 12rem;
+    height: 12rem;
+    padding: 1rem;
+}
+
+.logoCardBack {
+    font-size: 24px;
+}
+
+.logo {
     width: 10rem;
     height: 10rem;
-    background-color: #FFFF;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1170px){
+
+    .brandLogoContainer {
+        width: 42rem;
+    }
+
 }

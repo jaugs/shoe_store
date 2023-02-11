@@ -99,12 +99,7 @@
     transition: all 0.3s linear;
 }
 
-
-/* #1C3879
- */
-
 @media only screen and (min-width: 768px) {
-
 
 .navigation, .navContainer {
     display: none;
@@ -176,12 +171,10 @@
 .headerLink:hover::after {
     transform: scaleX(1)
 }
-
-
 }
 
-
 @media only screen and (min-width: 768px) and (max-width: 1170px){
+
     .titleText{
         font-size: 28px;
     }
@@ -189,5 +182,4 @@
     .sloganText {
         display: none;
     }
-
 }

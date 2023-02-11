@@ -6,15 +6,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem;
     padding-top: 2rem;
 }
 
 .descriptionMensContainer {
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
-    line-height: 2.5rem;
+    line-height: 1.5rem;
     background-color: #F2F3FB;
     color: #1C2444;
     display: flex;
@@ -24,9 +24,26 @@
     padding: 1rem;
     box-shadow: 1px 1px 10px 3px #1c2444;
     border-radius: 15px;
-    width: 40rem;
+    width: 18rem;
 }
 
 .descriptionMensContainer h3 {
     color: #003FAA;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .mensContainer {
+        gap: 3rem;
+        padding-top: 2rem;
+    }
+
+    .descriptionMensContainer {
+        font-size: 20px;
+        line-height: 2.5rem;
+        padding: 1rem;
+        width: 40rem;
+    }
+
 }

@@ -20,7 +20,7 @@ export default function BrandsPage () {
                     </div>
                     <div className="sizes">
                         <p className="colorbold">Women's Sizes:</p>
-                        <p>Women: 6 - 13, W, WW, XXW</p>
+                        <p>6 - 13, W, WW, XXW</p>
                     </div>
                 </section>
              }
