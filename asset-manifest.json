@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/shoe_store/static/css/main.92facc0d.css",
+    "main.js": "/shoe_store/static/js/main.5511f67b.js",
+    "static/js/787.411c5caf.chunk.js": "/shoe_store/static/js/787.411c5caf.chunk.js",
+    "static/media/store.png": "/shoe_store/static/media/store.33a5a529df70a41241a0.png",
+    "static/media/storemap.png": "/shoe_store/static/media/storemap.19b56806e88081c1212d.png",
+    "static/media/store2.png": "/shoe_store/static/media/store2.a5371ab66f2751e938b2.png",
+    "static/media/SourceSansPro-Regular.ttf": "/shoe_store/static/media/SourceSansPro-Regular.df87f53caf449a3b7572.ttf",
+    "static/media/Marcellus-Regular.ttf": "/shoe_store/static/media/Marcellus-Regular.379c0e43574baa7d41e9.ttf",
+    "static/media/dunham8000.jpg": "/shoe_store/static/media/dunham8000.b4835c8f29134db52973.jpg",
+    "static/media/sketchersarchfit.jpg": "/shoe_store/static/media/sketchersarchfit.998eabacbfea1d6df4dd.jpg",
+    "static/media/hushpuppiesgus.jpg": "/shoe_store/static/media/hushpuppiesgus.2718760b0dd19986af8d.jpg",
+    "static/media/dunham8000service.jpg": "/shoe_store/static/media/dunham8000service.d5198c762fced0a1f341.jpg",
+    "static/media/florshiemmidtowncap.jpg": "/shoe_store/static/media/florshiemmidtowncap.d23957eb9b6f320a3290.jpg",
+    "static/media/florsheim-logo.svg": "/shoe_store/static/media/florsheim-logo.9a4eb5bb22114542532735eb72c82411.svg",
+    "static/media/skechers-logo.svg": "/shoe_store/static/media/skechers-logo.bbe5491d84d336c19d9ad6aca3eed209.svg",
+    "static/media/trotters-logo.svg": "/shoe_store/static/media/trotters-logo.b2fd9278f877bf25901fcb23d98e4d07.svg",
+    "static/media/wolky-logo.svg": "/shoe_store/static/media/wolky-logo.e526b991759e476ade6186364895a7e8.svg",
+    "static/media/dunham-logo.svg": "/shoe_store/static/media/dunham-logo.581b655b4d7cb0faf5d37e524559127e.svg",
+    "static/media/softwalk-logo.svg": "/shoe_store/static/media/softwalk-logo.9ce6a0e8102d4d0314bf990087bc97cf.svg",
+    "static/media/newbalance-logo.svg": "/shoe_store/static/media/newbalance-logo.fa57544b1d21b5180470597f84c0e184.svg",
+    "static/media/brooks-logo.svg": "/shoe_store/static/media/brooks-logo.850519cb3af19900da49f4d889f0ff2e.svg",
+    "static/media/propet-logo.svg": "/shoe_store/static/media/propet-logo.ed099b6ca3f3b0d68abfce702a6d219c.svg",
+    "static/media/hushpuppies-logo.svg": "/shoe_store/static/media/hushpuppies-logo.9f0ad799c8c1c401c79bc9241370817a.svg",
+    "static/media/aravon-logo.svg": "/shoe_store/static/media/aravon-logo.2b010dcf70b1f839dd552d960886bc6c.svg",
+    "static/media/munro-logo.svg": "/shoe_store/static/media/munro-logo.4ab127ccfb141ebadc70b9bd4027d4ec.svg",
+    "static/media/facebook_icon.svg": "/shoe_store/static/media/facebook_icon.16d3218abb07605cdf9ef8c083101b4f.svg",
+    "static/media/twitter-logo.svg": "/shoe_store/static/media/twitter-logo.0994819c4416f510adad167ed5b5828b.svg",
+    "index.html": "/shoe_store/index.html",
+    "main.92facc0d.css.map": "/shoe_store/static/css/main.92facc0d.css.map",
+    "main.5511f67b.js.map": "/shoe_store/static/js/main.5511f67b.js.map",
+    "787.411c5caf.chunk.js.map": "/shoe_store/static/js/787.411c5caf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92facc0d.css",
+    "static/js/main.5511f67b.js"
+  ]
+}
