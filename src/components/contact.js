@@ -4,33 +4,32 @@ import MapMarker from './createMap'
 
 export default function Contact(props) {
 
-
     return (
         <section className="contactContainer">
            
             <form className="contactForm">
-            <div className="contactTitle">
-                Please fill out the form below and we will get in touch with you as soon as possible. Thanks!
-            </div>
+                <div className="contactTitle">
+                    Please fill out the form below and we will get in touch with you as soon as possible. Thanks!
+                </div>
 
                 <div className='row'>
-                <label>Your Name (required)
-                <input
-                    className='contactInput'
-                    type='text'
-                    name='name'
-                    placeholder='Name...'
-                    required>
-                </input>
-                </label>
-                <label>Your Email (required)
-                <input
-                    className='contactInput'
-                    type='email'
-                    name='email'
-                    placeholder='Email...'>
-                </input>
-                </label>
+                    <label>Your Name (required)
+                    <input
+                        className='contactInput'
+                        type='text'
+                        name='name'
+                        placeholder='Name...'
+                        required>
+                    </input>
+                    </label>
+                    <label>Your Email (required)
+                    <input
+                        className='contactInput'
+                        type='email'
+                        name='email'
+                        placeholder='Email...'>
+                    </input>
+                    </label>
                 </div>
 
                 <label>Your Message
@@ -42,8 +41,8 @@ export default function Contact(props) {
                 </label>
                 <button
                     type="submit"
-                    className="submitButton"
-                >Submit</button>
+                    className="submitButton">Submit
+                </button>
             </form>
             <AnimateOnScroll
                 children={
@@ -66,8 +65,6 @@ export default function Contact(props) {
                 threshold={.5}
                 right={true}
             />
-
-
         </section>
     )
 }

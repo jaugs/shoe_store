@@ -3,7 +3,6 @@ import facebookLogo from '../brands/facebook_icon.svg'
 import twitterLogo from '../brands/twitter-logo.svg'
 export default function Footer() {
 
-
     return (
         <section className="footer">
             <div className="addressContainer">
@@ -58,8 +57,6 @@ export default function Footer() {
                     </a>
                 </div>
             </div>
-          
-
         </section>
     )
 }

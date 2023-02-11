@@ -3,8 +3,6 @@ import '../styles/brandspageStyle.css'
 import { brandLogos } from "./brands"
 
 export default function BrandsPage () {
-
-
     return (
         <div className="brandPageContainer">
             <AnimateOnScroll
@@ -43,7 +41,6 @@ export default function BrandsPage () {
                 </div>
             ))}
             </section>
-
         </div>
     )
 }

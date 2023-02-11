@@ -15,9 +15,6 @@ export default function AboutOtherwides () {
                         custormers with a wide range of quality shoes that cater to their specific needs and fit comfortably. 
                         From casual sneakers to formal dress shoes, we have a huge variety of styles and sizes to choose from, 
                         including wide and extra-wide options.
-
-
-                        
                         </div>
                     </div>
                 }
@@ -25,8 +22,6 @@ export default function AboutOtherwides () {
                 threshold={.3}
                 right={true}
             />
-            
-
         </div>
     )
 }

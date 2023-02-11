@@ -1,7 +1,6 @@
 import '../styles/homepageStyle.css'
 import storePic from '../images/store.png'
 import storePic2 from '../images/store2.png'
-//import { useEffect, useRef, useState } from "react";
 import AnimateOnScroll from './animate'
 import SignUpForm from './signup'
 import AboutUs from './aboutUs'
@@ -10,7 +9,6 @@ import MapMarker from './createMap'
 
 export default function Homepage (props) {
 
- 
     return (
         <div className='homepage'>
             <div className='firstSection'>

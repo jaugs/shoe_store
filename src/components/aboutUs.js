@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom"
 
 export default function AboutUs () {
-
-
         return (
             <section className="aboutContainer">
                 <h2>Experience The Shoe Comfort You've Been Dreaming Of</h2>
@@ -18,10 +16,6 @@ export default function AboutUs () {
                     to="/about_otherwides"
                 >Learn more About Us
                 </Link>
-
-
-                
-
             </section>
         )
 }

@@ -11,8 +11,6 @@ import AboutOtherwides from './components/aboutPage';
 
 function App() {
 
-
-
   return (
     <Router basename="/">
       <div className="App">

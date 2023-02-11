@@ -2,7 +2,6 @@ import '../styles/headerStyle.css'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
-
 function Hamburger (props) {
     const {isOpen} = props
 
@@ -25,7 +24,7 @@ function Hamburger (props) {
     )
 }
 
-export default function Header(props) {
+export default function Header() {
     
     const [navbarOpen, setNavbarOpen] = useState(false)
 
@@ -48,40 +47,38 @@ export default function Header(props) {
                 <ul>
                     <li>
                         <Link
-                        className='mobileLink'
-                        to='/womens'>For Women
+                            className='mobileLink'
+                            to='/womens'>For Women
                         </Link>
                     </li>
                     <li>
                         <Link
-                        className='mobileLink'
-                        to='/mens'>For Men
+                            className='mobileLink'
+                            to='/mens'>For Men
                         </Link>
                     </li>
                     <li>
                         <Link
-                        className='mobileLink'
-                        to='/brands'>Brands
+                            className='mobileLink'
+                            to='/brands'>Brands
                         </Link>
                     </li>
                     <li>
                         <Link 
-                        className='mobileLink'
-                        to='/about_otherwides'>About Us
+                            className='mobileLink'
+                            to='/about_otherwides'>About Us
                         </Link>
                     </li>
                     <li>
                         <Link
-                        className='mobileLink'
-                        to='/contact'>Contact
+                            className='mobileLink'
+                            to='/contact'>Contact
                         </Link>
                     </li>
                 </ul>
             </div>
             </div>
          
-
-
             <div className='leftLinks'>
                 <Link 
                     className='headerLink'
@@ -114,9 +111,6 @@ export default function Header(props) {
                     to='contact'>Contact
                 </Link>
             </div>
-
-          
-            
         </div>
     )
 }

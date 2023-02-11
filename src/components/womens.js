@@ -2,11 +2,10 @@ import '../styles/mensPageStyle.css'
 import AnimateOnScroll from './animate'
 import PhotoCarousel from './carousel/photoCarousel'
 import { mensShoes } from './mensproducts'
-export default function Womens() {
 
+export default function Womens() {
     return (
         <section className="mensContainer">
-           
            <AnimateOnScroll
              children={
                 <div className='descriptionMensContainer'>
@@ -21,7 +20,6 @@ export default function Womens() {
              right={true}
             />
             <PhotoCarousel images = {mensShoes} />
-
         </section>
     )
 }
