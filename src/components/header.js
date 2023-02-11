@@ -113,7 +113,6 @@ export default function Header(props) {
                     className='headerLink'
                     to='contact'>Contact
                 </Link>
-                <div className='headerLink'>Social</div>
             </div>
 
           

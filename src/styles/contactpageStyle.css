@@ -138,3 +138,31 @@
         font-size: 20px;
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1170px){
+
+    .infoContainer {
+        width: 18rem;
+        font-size: 16px;
+        padding: 1rem;
+    }
+
+    .contactForm {
+        padding: 1rem;
+        width: 20rem;
+        gap: 1rem;
+    }
+
+    .contactTitle {
+        line-height: 1.5;
+        font-size: 18px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .contactMessage {
+        width: 16rem;
+    }
+}
