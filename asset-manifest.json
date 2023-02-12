@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shoe_store/static/css/main.92facc0d.css",
-    "main.js": "/shoe_store/static/js/main.5511f67b.js",
+    "main.css": "/shoe_store/static/css/main.8776728f.css",
+    "main.js": "/shoe_store/static/js/main.7dd5e7dc.js",
     "static/js/787.411c5caf.chunk.js": "/shoe_store/static/js/787.411c5caf.chunk.js",
     "static/media/store.png": "/shoe_store/static/media/store.33a5a529df70a41241a0.png",
     "static/media/storemap.png": "/shoe_store/static/media/storemap.19b56806e88081c1212d.png",
@@ -28,12 +28,12 @@
     "static/media/facebook_icon.svg": "/shoe_store/static/media/facebook_icon.16d3218abb07605cdf9ef8c083101b4f.svg",
     "static/media/twitter-logo.svg": "/shoe_store/static/media/twitter-logo.0994819c4416f510adad167ed5b5828b.svg",
     "index.html": "/shoe_store/index.html",
-    "main.92facc0d.css.map": "/shoe_store/static/css/main.92facc0d.css.map",
-    "main.5511f67b.js.map": "/shoe_store/static/js/main.5511f67b.js.map",
+    "main.8776728f.css.map": "/shoe_store/static/css/main.8776728f.css.map",
+    "main.7dd5e7dc.js.map": "/shoe_store/static/js/main.7dd5e7dc.js.map",
     "787.411c5caf.chunk.js.map": "/shoe_store/static/js/787.411c5caf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92facc0d.css",
-    "static/js/main.5511f67b.js"
+    "static/css/main.8776728f.css",
+    "static/js/main.7dd5e7dc.js"
   ]
 }
