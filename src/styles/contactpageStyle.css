@@ -19,7 +19,7 @@
 
 .contactForm {
     border-radius: 15px;
-    width: 20rem;
+    width: 18rem;
     color: #1C2444;
     background-color: #F2F3FB;
     display: flex;
@@ -56,13 +56,13 @@
 
 .contactMessage {
     resize: none;
-    width: 18rem;
-    height: 8rem;
+    width: 16rem;
+    height: 10rem;
 }
 
 .infoContainer {
     border-radius: 15px;
-    width: 20rem;
+    width: 18rem;
     color: #1C2444;
     background-color: #F2F3FB;
     display: flex;

@@ -10,7 +10,7 @@
 
 .brandsInfoContainer {
     text-align: center;
-    width: 21rem;
+    width: 18rem;
     font-size: 16px;
     font-weight: 600;
     line-height: 1rem;
@@ -20,7 +20,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: .5rem;
+    gap: 1rem;
     padding: .5rem;
     padding-top: 1rem;
     border-radius: 15px;
@@ -32,7 +32,7 @@
 }
 
 .sizes {
-    width: 20rem;
+    width: 15rem;
     display: flex;
     flex-direction: row;
     gap: 1rem;

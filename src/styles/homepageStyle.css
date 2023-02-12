@@ -34,7 +34,7 @@
     font-size: 15px;
     font-weight: 600;
     line-height: 2rem;
-    width: 20rem;
+    width: 18rem;
     background-color: #F2F3FB;
     color: #1C2444;
     display: flex;
@@ -104,7 +104,7 @@
 }
 
 .signupContainer {
-    width: 20rem;
+    width: 18rem;
 }
 
 .signupContainer form{

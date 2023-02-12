@@ -36,6 +36,10 @@ export default function Header() {
         display: navbarOpen ? 'block' : 'none'
     }
 
+    const handleBurgerClick = () => {
+        setNavbarOpen(false)
+    }
+
     return (
         <div className="header">
             <div className='navContainer'>
@@ -47,30 +51,35 @@ export default function Header() {
                 <ul>
                     <li>
                         <Link
+                            onClick={handleBurgerClick}
                             className='mobileLink'
                             to='/womens'>For Women
                         </Link>
                     </li>
                     <li>
                         <Link
+                            onClick={handleBurgerClick}
                             className='mobileLink'
                             to='/mens'>For Men
                         </Link>
                     </li>
                     <li>
                         <Link
+                            onClick={handleBurgerClick}
                             className='mobileLink'
                             to='/brands'>Brands
                         </Link>
                     </li>
                     <li>
-                        <Link 
+                        <Link
+                            onClick={handleBurgerClick}
                             className='mobileLink'
                             to='/about_otherwides'>About Us
                         </Link>
                     </li>
                     <li>
                         <Link
+                            onClick={handleBurgerClick}
                             className='mobileLink'
                             to='/contact'>Contact
                         </Link>
@@ -95,6 +104,7 @@ export default function Header() {
             </div>
             <div className="title">
                 <Link
+                    onClick={handleBurgerClick}
                     className='titleText'
                     to='/'>Otherwides Wide Shoes
                 </Link>

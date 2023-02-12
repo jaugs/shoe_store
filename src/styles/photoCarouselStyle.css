@@ -4,7 +4,7 @@
     background-color: #F2F3FB;
     color: #1C2444;
     height: 25rem;
-    width: 22rem;
+    width: 18rem;
     position: relative;
     margin-bottom: 2rem;
     display: flex;
@@ -13,10 +13,11 @@
     align-items: center;
     box-shadow: 1px 1px 10px 3px #1c2444;
     border-radius: 15px;
+    padding: 1rem;
 }
 
 .activeSlide {   
-    width: 20rem;
+    width: 18rem;
     height: 10rem;
     display: flex;
     flex-direction: column;
@@ -31,7 +32,7 @@
 }
 
 .slideImage {
-    width: 16rem;
+    width: 14rem;
     object-fit: cover;
     box-shadow: 1px 1px 10px 3px #1c2444;
     border-radius: 15px;

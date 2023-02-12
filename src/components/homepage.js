@@ -15,7 +15,7 @@ export default function Homepage (props) {
                 <AnimateOnScroll 
                     children={<img className='shopImage' src= {storePic} alt='store display' />}
                     reappear={true} 
-                    threshold={.5}
+                    threshold={.3}
                     right={false}
                 />
                 <AnimateOnScroll
@@ -30,7 +30,7 @@ export default function Homepage (props) {
                                 </div>
                             </div>}
                     reappear={true}
-                    threshold={.5}
+                    threshold={.2}
                     right={true}
                 />
             </div>
