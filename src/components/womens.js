@@ -11,7 +11,7 @@ export default function Womens() {
                 <div className='descriptionMensContainer'>
                     <h3> Quality Footwear That Fits </h3>
                     <div>Otherwides has the widest selection of Women's dress shoes, 
-                        casual and athletic shoes, as well as sandals and boots.
+                        casual, and athletic shoes, as well as sandals and boots.
                     </div> 
                 </div>
              }
