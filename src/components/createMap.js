@@ -17,7 +17,7 @@ export default function MapMarker() {
                 title='map'
                 style= {mapStyle}
                 referrerPolicy="no-referrer-when-downgrade"
-                src= {`https://www.google.com/maps/embed/v1/place?key=${key}=Otherwides+Shoes,Tempe+AZ`}
+                src= {`https://www.google.com/maps/embed/v1/place?key=${key}&q=Otherwides+Shoes,Tempe+AZ`}
                 allowFullScreen>
             </iframe>
         </div>
