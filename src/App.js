@@ -9,6 +9,7 @@ import BrandsPage from './components/brandsPage';
 import Contact from './components/contact';
 import AboutOtherwides from './components/aboutPage';
 
+
 function App() {
 
   return (
