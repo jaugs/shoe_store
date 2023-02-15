@@ -1,6 +1,6 @@
 //import { Wrapper, Status } from '@googlemaps/react-wrapper'
 import { useEffect, useRef, useState } from 'react'
-import mapPic from '../images/storemap.png'
+//import mapPic from '../images/storemap.png'
 
 export default function MapMarker() {
 
