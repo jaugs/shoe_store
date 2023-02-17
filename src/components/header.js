@@ -53,6 +53,13 @@ export default function Header() {
                         <Link
                             onClick={handleBurgerClick}
                             className='mobileLink'
+                            to='/'>Home
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            onClick={handleBurgerClick}
+                            className='mobileLink'
                             to='/womens'>For Women
                         </Link>
                     </li>

@@ -50,7 +50,7 @@ export default function Homepage (props) {
                         </ul>
                         </div>}
                     reappear={true}
-                    threshold={.3}
+                    threshold={.2}
                     right={false}
                 />
                 <AnimateOnScroll

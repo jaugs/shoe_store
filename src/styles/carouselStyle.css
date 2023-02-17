@@ -20,14 +20,22 @@
     transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
     padding: 2px;
     background-color: #F2F3FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.brandLogo {
+.brandLogoPic {
     border: 1px solid #e9eaee;
     border-radius: 15px;
     width: 125px;
     height: 125px;
     background-color: #F2F3FB;
+}
+
+.cardsizePic {
+    width: 125px;   
+    border-radius: 15px;
 }
 
 .BrandCarouselArrows {
@@ -68,14 +76,22 @@
     padding: 2rem;
 }
 
+.cardsizePic {
+    width: 150px;   
+    border-radius: 15px;
+}
+
 .card {
     /* min-width: 100%; */
     min-width: 150px;
     min-height: 150px;
     padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.brandLogo {
+.brandLogoPic {
     width: 150px;
     height: 150px;
 }

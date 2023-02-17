@@ -32,7 +32,7 @@ export default function BrandsPage () {
                      key={index}>
                      <div className="logoCardInner">
                         <div className="logoCardFront">
-                            <img className="logo" src={logo.image} alt={logo.name} />
+                            <img className={logo.type} src={logo.image} alt={logo.name} />
                         </div>
                         <div className="logoCardBack">
                             {logo.name}

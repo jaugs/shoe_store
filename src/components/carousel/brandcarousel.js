@@ -19,7 +19,6 @@ export default function Carousel () {
         return () => clearInterval(interval)
     })
 
-   
     return (
         <div className='carouselContainer'>
             <div className='cardContainer'>
@@ -28,7 +27,7 @@ export default function Carousel () {
                             className='card'
                             style={{transform: `translate(-${currentIndex * 120}%)`}}
                             key={index}>
-                            <img className='brandLogo' alt={item.name} src={item.image}></img>
+                            <img className={`${item.type}Pic`} alt={item.name} src={item.image}></img>
                         </div>
             })}
             </div>
