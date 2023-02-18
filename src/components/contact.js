@@ -7,7 +7,8 @@ export default function Contact(props) {
     return (
         <section className="contactContainer">
            
-            <form className="contactForm">
+            <form className="contactForm" method='POST' name='contact'>
+            <input type="hidden" name="form-name" value="contact" />
                 <div className="contactTitle">
                     Please fill out the form below and we will get in touch with you as soon as possible. Thanks!
                 </div>
