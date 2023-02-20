@@ -1,9 +1,17 @@
+import { useState } from 'react'
 import '../styles/mensPageStyle.css'
 import AnimateOnScroll from './animate'
 import PhotoCarousel from './carousel/photoCarousel'
 import { mensShoes } from './mensproducts'
 
 export default function Mens() {
+
+    const [category, setCategory] = useState('')
+
+    function changeCategory(type) {
+        setCategory(type)
+    }
+
     return (
         <section className="mensContainer">
            <AnimateOnScroll
@@ -17,8 +25,12 @@ export default function Mens() {
              }
              reappear={true}
              threshold={.3}
-             right={true}
+             right={true}qw
             />
+            <div className='categoryContainer'>
+                <button onClick={() => changeCategory('casual')} className='categoryButton'>Casual</button>
+            </div>
+
             <PhotoCarousel images = {mensShoes} />
         </section>
     )
