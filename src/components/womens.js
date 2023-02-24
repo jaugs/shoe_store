@@ -1,9 +1,9 @@
 import '../styles/mensPageStyle.css'
 import AnimateOnScroll from './animate'
 import PhotoDisplay from './carousel/photoDisplay'
-import { mensShoes } from './mensproducts'
 import { useState } from 'react'
 import { womensCasual } from '../assets/womensCasual'
+import { womensAthletic } from '../assets/womensAthletic'
 import ModalGallery from './carousel/modal'
 
 
@@ -16,8 +16,8 @@ export default function Womens() {
     function changeCategory(type) {
         if (type === 'casual') {
         setCategory(womensCasual)
-        } else if (type === 'dress') {
-            setCategory(mensShoes)
+        } else if (type === 'athletic') {
+            setCategory(womensAthletic)
         }
     }
 
