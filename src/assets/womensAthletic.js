@@ -1,15 +1,15 @@
-import w880w13 from '../images/womens/athletic/nb_w880w13.webp'
+import w880w13 from '../images/womens/athletic/nb_w880w13.jpg'
 import w1540sp3 from '../images/womens/athletic/nb_w1540sp3.jpg'
 import w840cm5 from '../images/womens/athletic/nb_w840cm5.webp'
 import w847LG4 from '../images/womens/athletic/nb_w847lg4.jpg'
-import addiction from '../images/womens/athletic/brooks_addiction.webp'
+import addiction from '../images/womens/athletic/brooks_addiction.jpg'
 import adrenaline from '../images/womens/athletic/brooks_adrenaline_gts21.jpg'
 import ariel from '../images/womens/athletic/brooks_ariel20.webp'
 import ec5 from '../images/womens/athletic/propet_ec5.webp'
 import travelWalkerII from '../images/womens/athletic/propet_travelwalker.jpg'
 import archfit from '../images/womens/athletic/skechers_archfit.jpg'
 import unopop from '../images/womens/athletic/sketchers_unopop.webp'
-import maxcushion from '../images/womens/athletic/sketchers_maxcushion.webp'
+import maxcushion from '../images/womens/athletic/sketchers_maxcushion.jpg'
 
 const womensAthletic = [
     {name: 'New Balance Fresh Foam x880 v13',

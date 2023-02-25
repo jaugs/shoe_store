@@ -72,6 +72,7 @@
 .modalClosed {
     display: none;
 }
+
 .modalContent {
     display: flex;
     flex-direction: column;
@@ -80,7 +81,6 @@
     gap:2rem;
     position: relative;
     width: 60rem;
-    height: 50rem;
     background-color: #fefefe;
     margin: auto;
     width: 90%;
@@ -91,6 +91,11 @@
     font-weight: 700;
 }
 
+.modalImage {
+    height: 80%;
+    width: auto;
+}
+
 .closeIcon {
     cursor: pointer;
     color: white;
@@ -99,11 +104,6 @@
     right: 25px;
     font-size: 50px;
     font-weight: bold;
-}
-
-.modalImage {
-    width: 60%;
-    
 }
 
 .prevmodalArrows, .nextmodalArrows {
@@ -144,4 +144,16 @@
         width: 40rem;
     }
 
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1170px){
+
+    .modalImage {
+        height: 60%;
+        /* max-width: 100%; */
+        width: 100%;
+        object-fit:cover;
+    }
+
+    
 }

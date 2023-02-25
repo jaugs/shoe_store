@@ -1,16 +1,15 @@
-import { useState } from 'react'
+//import { useState } from 'react'
 import '../styles/mensPageStyle.css'
 import AnimateOnScroll from './animate'
-import PhotoCarousel from './carousel/photoCarousel'
-import { mensShoes } from './mensproducts'
+//import PhotoCarousel from './carousel/photoCarousel'
 
 export default function Mens() {
 
-    const [category, setCategory] = useState('')
+  //  const [category, setCategory] = useState('')
 
-    function changeCategory(type) {
-        setCategory(type)
-    }
+    // function changeCategory(type) {
+    //     setCategory(type)
+    // }
 
     return (
         <section className="mensContainer">
@@ -27,14 +26,14 @@ export default function Mens() {
              threshold={.3}
              right={true}qw
             />
-            <div className='categoryContainer'>
+            {/* <div className='categoryContainer'>
                 <button onClick={() => changeCategory('casual')} className='categoryButton'>Casual</button>
                 <button onClick={() => changeCategory('dress')} className='categoryButton'>Dress</button>
                 <button onClick={() => changeCategory('athletic')} className='categoryButton'>Athletic</button>
 
-            </div>
+            </div> */}
 
-            <PhotoCarousel images = {mensShoes} />
+          
         </section>
     )
 }
