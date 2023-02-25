@@ -49,9 +49,18 @@ export default function Womens() {
              right={true}
             />
              <div className='categoryContainer'>
-                <button onClick={() => changeCategory('casual')} className='categoryButton'>Casual</button>
-                <button onClick={() => changeCategory('dress')} className='categoryButton'>Dress</button>
-                <button onClick={() => changeCategory('athletic')} className='categoryButton'>Athletic</button>
+                <button 
+                    onClick={() => changeCategory('casual')} 
+                    className={category === womensCasual ? 'activeButton' : 'categoryButton'}>Casual
+                </button>
+                <button 
+                    onClick={() => changeCategory('dress')} 
+                    className={category === womensDress ? 'activeButton' : 'categoryButton'}>Dress
+                </button>
+                <button 
+                    onClick={() => changeCategory('athletic')} 
+                    className={category === womensAthletic ? 'activeButton' : 'categoryButton'}>Athletic
+                </button>
 
             </div>
                 

@@ -8,7 +8,7 @@ import ariel from '../images/womens/athletic/brooks_ariel20.webp'
 import ec5 from '../images/womens/athletic/propet_ec5.webp'
 import travelWalkerII from '../images/womens/athletic/propet_travelwalker.jpg'
 import archfit from '../images/womens/athletic/skechers_archfit.jpg'
-import unopop from '../images/womens/athletic/sketchers_unopop.webp'
+import unopop from '../images/womens/athletic/skechers_unopop.jpg'
 import maxcushion from '../images/womens/athletic/sketchers_maxcushion.jpg'
 
 const womensAthletic = [
