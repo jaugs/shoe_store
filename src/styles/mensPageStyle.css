@@ -196,10 +196,8 @@
         align-items: center;
         gap:2rem;
         position: relative;
-        width: 60rem;
         background-color: #fefefe;
         margin: auto;
-        width: 90%;
     }
     
     .modalName {
@@ -208,8 +206,8 @@
     }
     
     .modalImage {
-        height: 65%;
-        width: 90%;
+        height: 100%;
+        width: auto;
     }
 
 }
@@ -224,3 +222,4 @@
 
     
 }
+

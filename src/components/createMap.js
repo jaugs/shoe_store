@@ -1,13 +1,11 @@
-//import { Wrapper, Status } from '@googlemaps/react-wrapper'
-//import mapPic from '../images/storemap.png'
 
 export default function MapMarker() {
 
     const mapStyle = {
         border: 'none',
         borderRadius: '15px',
-        width: '25rem',
-        height: '25rem'
+        width: '23rem',
+        height: '23rem'
     }
     const key = process.env.REACT_APP_API_KEY
     return (
