@@ -1,15 +1,29 @@
-//import { useState } from 'react'
 import '../styles/mensPageStyle.css'
+import '../styles//photoCarouselStyle.css'
 import AnimateOnScroll from './animate'
-//import PhotoCarousel from './carousel/photoCarousel'
+import PhotoDisplay from './carousel/photoDisplay'
+import { useState } from 'react'
+import { mensDress } from '../assets/mensDress'
+import ModalGallery from './carousel/modal'
 
 export default function Mens() {
 
-  //  const [category, setCategory] = useState('')
+    const [category, setCategory] = useState(mensDress)
+    const [modalOpen, setModalOpen] = useState(false)
+    const [activeImage, setActiveImage] = useState('')
 
-    // function changeCategory(type) {
-    //     setCategory(type)
-    // }
+    function changeCategory (type) {
+        if (type === 'dress') {
+        setCategory(mensDress)
+        } else if (type === 'athletic') {
+            setCategory(mensDress)
+        }
+    }
+
+    function openModal(image, index) {
+        setActiveImage(image)
+        setModalOpen(true)
+    }
 
     return (
         <section className="mensContainer">
@@ -24,16 +38,28 @@ export default function Mens() {
              }
              reappear={true}
              threshold={.3}
-             right={true}qw
+             right={true}
             />
-            {/* <div className='categoryContainer'>
-                <button onClick={() => changeCategory('casual')} className='categoryButton'>Casual</button>
-                <button onClick={() => changeCategory('dress')} className='categoryButton'>Dress</button>
-                <button onClick={() => changeCategory('athletic')} className='categoryButton'>Athletic</button>
+            <div className='categoryContainer'>
+                <button 
+                    onClick={() => changeCategory('casual')} 
+                    className={category === mensDress ? 'activeButton' : 'categoryButton'}>Casual
+                </button>
+                <button 
+                    onClick={() => changeCategory('athletic')} 
+                    className={category === 'mensDress' ? 'activeButton' : 'categoryButton'}>Dress
+                </button>
+            </div>
 
-            </div> */}
+            <PhotoDisplay images = {category} openModal = {openModal} />
 
-          
+            <ModalGallery 
+                modalOpen = {modalOpen} 
+                setModalOpen = {setModalOpen} 
+                activeImage = {activeImage} 
+                setActiveImage = {setActiveImage}
+                images = {category}
+            />
         </section>
     )
 }

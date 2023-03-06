@@ -27,7 +27,6 @@ export default function Womens() {
 
     function openModal(image, index) {
         setActiveImage(image)
-        console.log(index)
         setModalOpen(true)
     }
 
@@ -61,7 +60,6 @@ export default function Womens() {
                     onClick={() => changeCategory('athletic')} 
                     className={category === womensAthletic ? 'activeButton' : 'categoryButton'}>Athletic
                 </button>
-
             </div>
                 
             <PhotoDisplay images = {category} openModal = {openModal} />
@@ -73,7 +71,6 @@ export default function Womens() {
                 setActiveImage = {setActiveImage}
                 images = {category}
             />
-           
         </section>
     )
 }
