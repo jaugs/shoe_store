@@ -60,6 +60,13 @@ export default function Header() {
                         <Link
                             onClick={handleBurgerClick}
                             className='mobileLink'
+                            to='/newArrivals'>New Arrivals
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            onClick={handleBurgerClick}
+                            className='mobileLink'
                             to='/womens'>For Women
                         </Link>
                     </li>
@@ -106,7 +113,7 @@ export default function Header() {
                 </Link>
                 <Link
                     className='headerLink'
-                    to='/brands'>Brands
+                    to='/newArrivals'>New Arrivals
                 </Link>
             </div>
             <div className="title">
@@ -119,6 +126,10 @@ export default function Header() {
                 <div className='phoneNumber'> (480) 730-2730</div>
             </div>
             <div className='rightLinks'>
+                <Link
+                    className='headerLink'
+                    to='/brands'>Brands
+                </Link>
                 <Link
                     className='headerLink'
                     to='/about_otherwides'>About Us

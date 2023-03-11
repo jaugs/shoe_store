@@ -8,7 +8,7 @@ import Womens from './components/womens';
 import BrandsPage from './components/brandsPage';
 import Contact from './components/contact';
 import AboutOtherwides from './components/aboutPage';
-
+import NewArrivals from './components/newArrivals';
 
 function App() {
 
@@ -29,10 +29,16 @@ function App() {
             <Mens />
           }
         />
-          <Route
+        <Route
           exact path="womens"
           element={
             <Womens />
+          }
+        />
+        <Route
+          exact path="/newArrivals"
+          element={
+            <NewArrivals />
           }
         />
         <Route
