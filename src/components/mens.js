@@ -4,6 +4,7 @@ import AnimateOnScroll from './animate'
 import PhotoDisplay from './carousel/photoDisplay'
 import { useState } from 'react'
 import { mensDress } from '../assets/mensDress'
+import { mensAthletic } from '../assets/mensAthletic'
 import ModalGallery from './carousel/modal'
 
 export default function Mens() {
@@ -16,7 +17,7 @@ export default function Mens() {
         if (type === 'dress') {
         setCategory(mensDress)
         } else if (type === 'athletic') {
-            setCategory(mensDress)
+            setCategory(mensAthletic)
         }
     }
 
@@ -43,11 +44,11 @@ export default function Mens() {
             <div className='categoryContainer'>
                 <button 
                     onClick={() => changeCategory('casual')} 
-                    className={category === mensDress ? 'activeButton' : 'categoryButton'}>Casual
+                    className={category === mensDress ? 'activeButton' : 'categoryButton'}>Dress
                 </button>
                 <button 
                     onClick={() => changeCategory('athletic')} 
-                    className={category === 'mensDress' ? 'activeButton' : 'categoryButton'}>Dress
+                    className={category === mensAthletic ? 'activeButton' : 'categoryButton'}>Athletic
                 </button>
             </div>
 

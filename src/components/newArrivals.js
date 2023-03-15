@@ -8,7 +8,6 @@ import ModalGallery from './carousel/modal'
 
 export default function NewArrivals() {
 
-    const [category, setCategory] = useState(newShoes)
     const [modalOpen, setModalOpen] = useState(false)
     const [activeImage, setActiveImage] = useState('')
 
@@ -51,14 +50,14 @@ export default function NewArrivals() {
                 </button>
             </div> */}
 
-            <PhotoDisplay images = {category} openModal = {openModal} />
+            <PhotoDisplay images = {newShoes} openModal = {openModal} />
 
             <ModalGallery 
                 modalOpen = {modalOpen} 
                 setModalOpen = {setModalOpen} 
                 activeImage = {activeImage} 
                 setActiveImage = {setActiveImage}
-                images = {category}
+                images = {newShoes}
             />
         </section>
     )
